@@ -16,9 +16,6 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  top_row_win = [0,1,2]
-  if top_row_win == true
-    return true
-  elsif false
+  [0,1,2].map{|win| win.to_a}
   end
 end
