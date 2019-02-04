@@ -18,4 +18,5 @@ WIN_COMBINATIONS = [
 def won?(board)
   if WIN_COMBINATIONS == true
     return board.to_a
+  end
 end
