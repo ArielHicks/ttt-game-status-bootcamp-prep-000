@@ -16,6 +16,6 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  WIN_COMBINATIONS.each do {|win| win.to_a}
-end
+  WIN_COMBINATIONS.each do {|win| win.to_arry}
+  end
 end
