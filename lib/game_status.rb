@@ -17,4 +17,5 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   if board.empty?
-    return false
+    return
+    false
