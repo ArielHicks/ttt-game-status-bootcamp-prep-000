@@ -26,5 +26,5 @@ end
 def full?
   if board.full?
     return true
-
+  end
 end
