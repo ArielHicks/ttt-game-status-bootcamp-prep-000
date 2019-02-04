@@ -23,7 +23,7 @@ def won?(board)
   end
 end
 
-def full?
+def full?(board)
   if board.full?
     return true
   end
