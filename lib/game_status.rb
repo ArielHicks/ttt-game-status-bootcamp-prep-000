@@ -34,3 +34,11 @@ end
 def over?(board)
   won?(board) || full?(board)
 end
+
+def winner(board)
+  if won?(board) == "X"
+  return "X"
+else won?(board) == "O"
+  return "O"
+end
+end
