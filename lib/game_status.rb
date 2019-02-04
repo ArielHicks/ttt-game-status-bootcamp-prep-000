@@ -16,9 +16,6 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  # top_row_win = [0,1,2]
-  if board.empty?
-    return
-    false
-  end
+  if WIN_COMBINATIONS == true
+    return board.to_a
 end
