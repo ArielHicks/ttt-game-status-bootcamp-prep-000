@@ -19,5 +19,6 @@ def won?(board)
   top_row_win = [0,1,2]
   if top_row_win == true
     return true
+  elsif false
   end
 end
