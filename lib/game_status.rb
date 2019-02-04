@@ -17,7 +17,7 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   top_row_win = [0,1,2]
-  if top_row_win == true
+  if top_row_win == [0,1,2]
     return true
   elsif false
   end
