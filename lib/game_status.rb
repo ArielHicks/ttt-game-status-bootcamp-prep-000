@@ -19,3 +19,5 @@ def won?(board)
   if board.empty?
     return
     false
+  end
+end
