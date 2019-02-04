@@ -16,6 +16,5 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  [0,1,2].map{|win| win.to_a}
-  end
+  [0,1,2].map {|win| win.to_a}
 end
