@@ -32,5 +32,6 @@ def draw?(board)
       return true
     elsif full?(board) == false
       return false
+    else position_taken?(board, index) == [0,1,2]
   end
 end
